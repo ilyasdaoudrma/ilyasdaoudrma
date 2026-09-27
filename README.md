@@ -1,11 +1,11 @@
 <a href="https://www.linkedin.com/in/ilyas-daoud-el-asmi-0a531039b">
-  <img src="assets/header.svg" width="100%" alt="Ilyas Daoud El Asmi — Data & AI engineer and full-stack developer, Rabat, Morocco" />
+  <img src="assets/header.svg" width="100%" alt="Ilyas Daoud El Asmi — AI Engineer (LLM fine-tuning, RAG, AI agents) building full-stack AI products, Oujda, Morocco" />
 </a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ilyas-daoud-el-asmi-0a531039b"><img src="https://img.shields.io/badge/LinkedIn-Ilyas_Daoud_El_Asmi-E9A23B?style=for-the-badge&logo=linkedin&logoColor=E9A23B&labelColor=0E0C0A" alt="LinkedIn" /></a>
   <a href="mailto:idaoud361@gmail.com"><img src="https://img.shields.io/badge/Email-idaoud361@gmail.com-E9A23B?style=for-the-badge&logo=gmail&logoColor=E9A23B&labelColor=0E0C0A" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Based_in-Rabat,_Morocco-3DBF9F?style=for-the-badge&labelColor=0E0C0A" alt="Based in Rabat, Morocco" />
+  <img src="https://img.shields.io/badge/Based_in-Oujda,_Morocco-3DBF9F?style=for-the-badge&labelColor=0E0C0A" alt="Based in Oujda, Morocco" />
 </p>
 
 <br />
@@ -15,7 +15,7 @@
   <img src="assets/s01-light.svg" width="100%" alt="01 — About" />
 </picture>
 
-I'm a **Data Analytics & Business Intelligence** graduate from EST Oujda who likes owning the whole path, from raw data to a model to the interface a real person uses.
+I'm an **AI Engineer** working on **LLM fine-tuning, RAG and AI agents**, and I build full-stack AI products end to end, from the data and the model to the interface a real person uses: **OMNIA**, **AtlasKick AI**, a **Darija LLM** and **Real or Clone?**. I hold a Bachelor in Data Analytics & BI from EST Oujda.
 
 - **AI.** At LEADZ Tech Services I fine-tuned a conversational LLM for **Moroccan Darija**, then built a **RAG pipeline with OCR** for intelligent document processing.
 - **Machine learning.** At CHU Mohammed VI I built a **deep-learning model to help detect breast anomalies on mammograms**, from image preprocessing to evaluation.

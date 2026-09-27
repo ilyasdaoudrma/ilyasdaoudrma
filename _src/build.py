@@ -63,13 +63,13 @@ def header() -> str:
     rosette_in = star_path(cx, cy, 52)
     roles = [
         "fine-tunes LLMs that speak Moroccan Darija",
-        "ships full-stack products to production",
-        "turns raw data into decisions",
+        "builds RAG pipelines and AI agents",
+        "ships full-stack AI products end to end",
     ]
     role_nodes = "\n".join(
         f'<text class="role r{i}" x="64" y="408">{r}</text>' for i, r in enumerate(roles)
     )
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Ilyas Daoud El Asmi — Data &amp; AI engineer and full-stack developer, Rabat, Morocco">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Ilyas Daoud El Asmi — AI Engineer (LLM fine-tuning, RAG, AI agents) building full-stack AI products, Oujda, Morocco">
 <style>
 {SERIF}{MONO}
 .mono{{font-family:'Mono',ui-monospace,monospace}}
@@ -118,7 +118,7 @@ def header() -> str:
   <rect width="{w}" height="{h}" filter="url(#grain)"/>
 
   <g class="fade d1">
-    <text class="mono" x="64" y="84" font-size="15" letter-spacing="3.5" fill="{c["accent"]}">RABAT, MOROCCO  ·  34.02°N  6.83°W</text>
+    <text class="mono" x="64" y="84" font-size="15" letter-spacing="3.5" fill="{c["accent"]}">OUJDA, MOROCCO  ·  34.68°N  1.91°W</text>
     <text x="64" y="120" font-size="19" fill="{c["muted"]}" font-family="'Segoe UI','Noto Sans','Noto Sans Arabic',Tahoma,sans-serif">Hello · Bonjour · مرحبا</text>
   </g>
   <text class="serif fade d2" x="58" y="238" font-size="118" font-weight="620" letter-spacing="-3" fill="{c["ink"]}" style="font-variation-settings:'opsz' 144">Ilyas Daoud</text>
@@ -131,7 +131,7 @@ def header() -> str:
   <g class="mono" font-size="13" letter-spacing="2.5" fill="{c["muted"]}">
     <circle class="pulse" cx="{w - 500}" cy="437" r="4" fill="{c["live"]}"/>
     <circle cx="{w - 500}" cy="437" r="4" fill="{c["live"]}"/>
-    <text x="{w - 48}" y="442" text-anchor="end">DATA &amp; AI  ·  FULL-STACK  ·  WEBZI1 STUDIO</text>
+    <text x="{w - 48}" y="442" text-anchor="end">AI ENGINEER  ·  LLM · RAG · AGENTS  ·  FULL-STACK</text>
   </g>
 </g>
 </svg>'''
