@@ -31,6 +31,17 @@ I work in Arabic (native), French and English, and I ship interfaces in all thre
   <img src="assets/s02-light.svg" width="100%" alt="02 — Selected work" />
 </picture>
 
+<a href="https://github.com/ilyasdaoudrma/real-or-clone"><img src="assets/shots/real-or-clone.jpg" width="100%" alt="Real or Clone? — AI voice-clone scam detector" /></a>
+
+### Real or Clone? &nbsp;·&nbsp; catching AI voice-clone scams in WhatsApp voice notes
+
+Scammers need 3 seconds of audio to clone a voice and send a fake *"Mom, I had an accident, send money"* note. I **fine-tuned Meta's XLS-R 300M** on ~50,000 English and French clips turned into WhatsApp-style voice notes, including **1,619 fresh voice clones** I generated on an **NVIDIA L40S**. On held-out data it reaches **96.1% accuracy** and a **2.4% EER on cloning engines it never saw** (ElevenLabs, OpenAI, Gemini). My own tests caught a shortcut in the first model (it flagged 96% of real voices) and I fixed it, bringing false alarms down to ~7%. The app gives a verdict, the suspicious seconds and safety tips in Arabic, French or English, with Clerk login and a private history. Built in one day at the **GOMYCODE × NVIDIA** hackathon.
+
+`PyTorch` `XLS-R 300M` `Chatterbox` `NVIDIA Brev` `FastAPI` `Clerk` `Groq`
+&nbsp;→&nbsp; **[Code & results](https://github.com/ilyasdaoudrma/real-or-clone)** &nbsp;·&nbsp; **[90-s video](https://github.com/ilyasdaoudrma/real-or-clone/raw/main/web/demo.mp4)**
+
+<br />
+
 <a href="https://atlaskick-ai.vercel.app"><img src="assets/shots/atlaskick.jpg" width="100%" alt="AtlasKick AI — live site" /></a>
 
 ### AtlasKick AI &nbsp;·&nbsp; explainable World Cup 2026 match intelligence
