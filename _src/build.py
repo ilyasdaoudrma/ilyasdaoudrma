@@ -220,7 +220,7 @@ def divider() -> str:
 
 SECTIONS = [
     ("01", "About", "WHO I AM"),
-    ("02", "Selected work", "SHIPPED &amp; LIVE"),
+    ("02", "Selected work", "SELECTED PROJECTS"),
     ("03", "Experience", "WORK · STUDY"),
     ("04", "Toolbox", "WHAT I BUILD WITH"),
     ("05", "Let’s talk", "OPEN TO OPPORTUNITIES"),

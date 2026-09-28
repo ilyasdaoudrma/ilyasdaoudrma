@@ -8,6 +8,12 @@
   <img src="https://img.shields.io/badge/Based_in-Oujda,_Morocco-3DBF9F?style=for-the-badge&labelColor=0E0C0A" alt="Based in Oujda, Morocco" />
 </p>
 
+<p align="center">
+  <a href="assets/ilyas-daoud-cv-english.pdf?raw=true"><img src="https://img.shields.io/badge/Download_CV-English_PDF-E9A23B?style=for-the-badge&amp;labelColor=0E0C0A" alt="Download my CV — English PDF" /></a>
+  <br />
+  <strong>Open to remote AI, ML and full-stack opportunities.</strong>
+</p>
+
 <br />
 
 <picture>
@@ -15,7 +21,7 @@
   <img src="assets/s01-light.svg" width="100%" alt="01 — About" />
 </picture>
 
-I'm an **AI Engineer** working on **LLM fine-tuning, RAG and AI agents**, and I build full-stack AI products end to end, from the data and the model to the interface a real person uses: **OMNIA**, **AtlasKick AI**, a **Darija LLM** and **Real or Clone?**. I hold a Bachelor in Data Analytics & BI from EST Oujda.
+I'm an **AI Engineer** focused on **LLM fine-tuning, RAG and AI agents**, building full-stack products from data and models to user interfaces: **OMNIA**, **AtlasKick AI**, a **Darija LLM** and **Real or Clone?**. I hold a Bachelor in Data Analytics & BI from EST Oujda.
 
 - **AI.** At LEADZ Tech Services I fine-tuned a conversational LLM for **Moroccan Darija**, then built a **RAG pipeline with OCR** for intelligent document processing.
 - **Machine learning.** At CHU Mohammed VI I built a **deep-learning model to help detect breast anomalies on mammograms**, from image preprocessing to evaluation.
@@ -35,7 +41,9 @@ I work in Arabic (native), French and English, and I ship interfaces in all thre
 
 ### Real or Clone? &nbsp;·&nbsp; catching AI voice-clone scams in WhatsApp voice notes
 
-Scammers need 3 seconds of audio to clone a voice and send a fake *"Mom, I had an accident, send money"* note. I **fine-tuned Meta's XLS-R 300M** on ~50,000 English and French clips turned into WhatsApp-style voice notes, including **1,619 fresh voice clones** I generated on an **NVIDIA L40S**. On held-out data it reaches **96.1% accuracy** and a **2.4% EER on cloning engines it never saw** (ElevenLabs, OpenAI, Gemini). My own tests caught a shortcut in the first model (it flagged 96% of real voices) and I fixed it, bringing false alarms down to ~7%. The app gives a verdict, the suspicious seconds and safety tips in Arabic, French or English, with Clerk login and a private history. Built in one day at the **GOMYCODE × NVIDIA** hackathon.
+Scammers can clone a voice from 3 seconds of audio to send fake requests for money. I **fine-tuned Meta's XLS-R 300M** on ~50,000 English and French clips turned into WhatsApp-style voice notes, including **1,619 fresh voice clones** I generated on an **NVIDIA L40S**. It reaches **96.1% accuracy** overall and **2.4% EER on unseen cloning engines** (ElevenLabs, OpenAI, Gemini). My own tests caught a shortcut in the first model (it flagged 96% of real voices) and I fixed it, bringing false alarms down to ~7%. The app provides a verdict, suspicious seconds and AR/FR/EN safety tips, with Clerk login and private history. Built in one day at the **GOMYCODE × NVIDIA** hackathon.
+
+**Evaluation context:** These results are from a held-out English/French test set of 10,122 clips; Arabic is supported in the interface, but detection on Arabic/Darija voices has not yet been validated.
 
 `PyTorch` `XLS-R 300M` `Chatterbox` `NVIDIA Brev` `FastAPI` `Clerk` `Groq`
 &nbsp;→&nbsp; **[Code & results](https://github.com/ilyasdaoudrma/real-or-clone)** &nbsp;·&nbsp; **[90-s video](https://github.com/ilyasdaoudrma/real-or-clone/raw/main/web/demo.mp4)**
@@ -46,7 +54,7 @@ Scammers need 3 seconds of audio to clone a voice and send a fake *"Mom, I had a
 
 ### AtlasKick AI &nbsp;·&nbsp; explainable World Cup 2026 match intelligence
 
-Not "my AI predicts the winner." Every probability breaks down into named, quantified factors: an **Elo + Poisson + ML ensemble** with **SHAP explanations**, a **10,000-run Monte Carlo** tournament simulator, and a grounded AI analyst. It also has a dedicated Morocco mode. Runs entirely in the browser with no backend.
+Every match probability breaks down into named, quantified factors: an **Elo + Poisson + ML ensemble** with **SHAP explanations**, a **10,000-run Monte Carlo** tournament simulator, and a grounded AI analyst. Includes a dedicated Morocco mode and runs entirely in the browser, with no backend.
 
 `React 19` `TypeScript` `Vite` `Tailwind v4` `Framer Motion` `Groq · Llama 3.3`
 &nbsp;→&nbsp; **[Live](https://atlaskick-ai.vercel.app)** &nbsp;·&nbsp; **[Code](https://github.com/ilyasdaoudrma/atlaskick-ai)**
@@ -58,14 +66,14 @@ Not "my AI predicts the winner." Every probability breaks down into named, quant
     <td width="50%" valign="top">
       <a href="https://omnia-vert.vercel.app"><img src="assets/shots/omnia.jpg" width="100%" alt="OMNIA — live site" /></a>
       <h3>OMNIA</h3>
-      <p>An agentic AI concierge you talk to in plain language. It plans and books across <b>stays, food and rides</b> in Morocco. It's <b>four full-stack apps sharing one Clerk login</b>: typed React frontends on NestJS + Prisma APIs over Neon Postgres, with rate limiting, server-to-server auth and a Playwright E2E suite.</p>
+      <p>An agentic AI concierge that plans and books <b>stays, food and rides</b> in Morocco through plain language. <b>Four full-stack apps share one Clerk login</b>: typed React frontends on NestJS + Prisma APIs over Neon Postgres, with rate limiting, server-to-server auth and a Playwright E2E suite.</p>
       <p><code>React 19</code> <code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Groq</code></p>
       <p>→ <b><a href="https://omnia-vert.vercel.app">Live</a></b> · <b><a href="https://github.com/ilyasdaoudrma/omnia">Code</a></b></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://ascend-ai-chi.vercel.app"><img src="assets/shots/ascend.jpg" width="100%" alt="Ascend AI — live site" /></a>
       <h3>Ascend AI</h3>
-      <p>A fitness tracker and social network for athletes, built end to end. I designed the relational schema, a <b>Django REST Framework</b> API with SimpleJWT, filtering, pagination and OpenAPI docs, and a <b>React 19</b> app on TanStack Query for workouts, analytics, feed and follows. The whole stack runs under Docker Compose.</p>
+      <p>An end-to-end fitness tracker and social network for athletes. I designed the relational schema, a <b>Django REST Framework</b> API with SimpleJWT, filtering, pagination and OpenAPI docs, and a <b>React 19</b> app on TanStack Query for workouts, analytics, feed and follows. Runs under Docker Compose.</p>
       <p><code>Django</code> <code>DRF</code> <code>PostgreSQL</code> <code>React 19</code> <code>Docker</code></p>
       <p>→ <b><a href="https://ascend-ai-chi.vercel.app">Live</a></b> · <b><a href="https://github.com/ilyasdaoudrma/ascend-ai">Code</a></b></p>
     </td>
@@ -130,12 +138,14 @@ Not "my AI predicts the winner." Every probability breaks down into named, quant
   <img src="https://skillicons.dev/icons?i=python,ts,js,react,nextjs,vite,tailwind,threejs,nodejs,nestjs&perline=10" alt="Python, TypeScript, JavaScript, React, Next.js, Vite, Tailwind, Three.js, Node.js, NestJS" />
   <br />
   <img src="https://skillicons.dev/icons?i=django,prisma,postgres,mysql,sqlite,supabase,docker,tensorflow,sklearn,electron,git,vercel&perline=12" alt="Django, Prisma, PostgreSQL, MySQL, SQLite, Supabase, Docker, TensorFlow, scikit-learn, Electron, Git, Vercel" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=pytorch,fastapi&amp;perline=2" alt="PyTorch, FastAPI" />
 </p>
 
 | | |
 |---|---|
-| **AI & data** | LLM fine-tuning · RAG · OCR · deep learning · scikit-learn · pandas · NumPy · ETL · data warehousing · Power BI |
-| **Backend** | Django REST Framework · SimpleJWT · NestJS · Prisma · REST & OpenAPI · PostgreSQL / Neon · Supabase |
+| **AI & data** | PyTorch · TensorFlow · LLM fine-tuning · RAG · OCR · deep learning · scikit-learn · pandas · NumPy · ETL · data warehousing · Power BI |
+| **Backend** | FastAPI · Django REST Framework · SimpleJWT · NestJS · Prisma · REST & OpenAPI · PostgreSQL / Neon · Supabase |
 | **Frontend** | React 19 · Next.js App Router · TypeScript · TanStack Query · Zustand · Framer Motion · GSAP · Three.js |
 | **Shipping** | Git & PR workflow · Docker Compose · Playwright E2E · Vercel · SEO & structured data · i18n with RTL |
 
@@ -146,6 +156,6 @@ Not "my AI predicts the winner." Every probability breaks down into named, quant
   <img src="assets/s05-light.svg" width="100%" alt="05 — Let's talk" />
 </picture>
 
-I'm open to **AI, data and full-stack roles**, and to building a website for your business. The fastest way to reach me is **[LinkedIn](https://www.linkedin.com/in/ilyas-daoud-el-asmi-0a531039b)** or **[idaoud361@gmail.com](mailto:idaoud361@gmail.com)**.
+I'm open to **remote AI, ML, data and full-stack opportunities**, and to building a website for your business. The fastest way to reach me is **[LinkedIn](https://www.linkedin.com/in/ilyas-daoud-el-asmi-0a531039b)** or **[idaoud361@gmail.com](mailto:idaoud361@gmail.com)**.
 
 <img src="assets/divider.svg" width="100%" alt="" />
