@@ -69,7 +69,7 @@ def header() -> str:
     role_nodes = "\n".join(
         f'<text class="role r{i}" x="64" y="408">{r}</text>' for i, r in enumerate(roles)
     )
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Ilyas Daoud El Asmi — AI Engineer (LLM fine-tuning, RAG, AI agents) building full-stack AI products, Oujda, Morocco">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="El Asmi Ilyas Daoud — AI Engineer (LLM fine-tuning, RAG, AI agents) building full-stack AI products, Oujda, Morocco">
 <style>
 {SERIF}{MONO}
 .mono{{font-family:'Mono',ui-monospace,monospace}}
@@ -121,8 +121,8 @@ def header() -> str:
     <text class="mono" x="64" y="84" font-size="15" letter-spacing="3.5" fill="{c["accent"]}">OUJDA, MOROCCO  ·  34.68°N  1.91°W</text>
     <text x="64" y="120" font-size="19" fill="{c["muted"]}" font-family="'Segoe UI','Noto Sans','Noto Sans Arabic',Tahoma,sans-serif">Hello · Bonjour · مرحبا</text>
   </g>
-  <text class="serif fade d2" x="58" y="238" font-size="118" font-weight="620" letter-spacing="-3" fill="{c["ink"]}" style="font-variation-settings:'opsz' 144">Ilyas Daoud</text>
-  <text class="serif fade d3" x="60" y="342" font-size="118" font-weight="420" letter-spacing="-2" fill="none" stroke="{c["ink"]}" stroke-width="1.4" style="font-variation-settings:'opsz' 144">El Asmi<tspan fill="{c["accent"]}" stroke="none">.</tspan></text>
+  <text class="serif fade d2" x="58" y="238" font-size="118" font-weight="620" letter-spacing="-3" fill="{c["ink"]}" style="font-variation-settings:'opsz' 144">El Asmi</text>
+  <text class="serif fade d3" x="60" y="342" font-size="118" font-weight="420" letter-spacing="-2" fill="none" stroke="{c["ink"]}" stroke-width="1.4" style="font-variation-settings:'opsz' 144">Ilyas Daoud<tspan fill="{c["accent"]}" stroke="none">.</tspan></text>
   <g class="fade d4">
     <text class="mono" x="64" y="408" font-size="22" fill="{c["accent"]}">›</text>
     <g transform="translate(24 0)">{role_nodes}</g>

@@ -1,5 +1,5 @@
 <a href="https://www.linkedin.com/in/ilyas-daoud-el-asmi-0a531039b">
-  <img src="assets/header.svg" width="100%" alt="Ilyas Daoud El Asmi — AI Engineer (LLM fine-tuning, RAG, AI agents) building full-stack AI products, Oujda, Morocco" />
+  <img src="assets/header.svg" width="100%" alt="El Asmi Ilyas Daoud — AI Engineer (LLM fine-tuning, RAG, AI agents) building full-stack AI products, Oujda, Morocco" />
 </a>
 
 <p align="center">
