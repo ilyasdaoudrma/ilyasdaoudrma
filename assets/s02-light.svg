@@ -9,5 +9,5 @@
 <path d="M58.0,21.0 L60.6,23.6 L64.4,23.6 L64.4,27.4 L67.0,30.0 L64.4,32.6 L64.4,36.4 L60.6,36.4 L58.0,39.0 L55.4,36.4 L51.6,36.4 L51.6,32.6 L49.0,30.0 L51.6,27.4 L51.6,23.6 L55.4,23.6 Z" fill="none" stroke="#B8741A" stroke-width="1.5"/>
 <text class="serif" x="0" y="100" font-size="60" font-weight="560" letter-spacing="-1.5" fill="#1A1613" style="font-variation-settings:'opsz' 144">Selected work</text>
 <line class="rule" pathLength="1" x1="92" y1="30" x2="1280" y2="30" stroke="#D9D0C3" stroke-width="1.5"/>
-<text class="mono" x="1280" y="100" text-anchor="end" font-size="15" letter-spacing="3" fill="#6B6257">SHIPPED &amp; LIVE</text>
+<text class="mono" x="1280" y="100" text-anchor="end" font-size="15" letter-spacing="3" fill="#6B6257">SELECTED PROJECTS</text>
 </svg>
