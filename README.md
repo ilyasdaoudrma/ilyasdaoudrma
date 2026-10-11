@@ -37,6 +37,17 @@ I work in Arabic (native), French and English, and I ship interfaces in all thre
   <img src="assets/s02-light.svg" width="100%" alt="02 — Selected work" />
 </picture>
 
+<a href="https://interview-copilot-coach.vercel.app"><img src="assets/shots/callback.jpg" width="100%" alt="Callback — live site" /></a>
+
+### Callback &nbsp;·&nbsp; rehearse the interview before you walk in
+
+An AI interview practice room. Paste a job post and your CV, answer **out loud**, and get a score out of 5, what worked, what to fix and a **stronger answer built only from your real experience**: a number that isn't in your CV gets flagged, not invented. A **Live mode** suggests answers during calls where notes are allowed. It runs on **your own AI key** across five providers with automatic fallback, and your key, CV and answers go straight from the browser to the provider, never through my server. The landing page is a scroll-scrubbed film I made from five AI video clips, retimed with optical flow and upscaled locally with Real-ESRGAN.
+
+`Next.js 16` `React 19` `TypeScript` `GSAP` `Groq · Gemini · OpenAI · Claude · OpenRouter` `Vitest`
+&nbsp;→&nbsp; **[Live](https://interview-copilot-coach.vercel.app)** &nbsp;·&nbsp; **[Project page](https://github.com/ilyasdaoudrma/callback)** &nbsp;·&nbsp; **[60-s video](https://github.com/ilyasdaoudrma/callback/raw/main/assets/demo.mp4)**
+
+<br />
+
 <a href="https://github.com/ilyasdaoudrma/real-or-clone"><img src="assets/shots/real-or-clone.jpg" width="100%" alt="Real or Clone? — AI voice-clone scam detector" /></a>
 
 ### Real or Clone? &nbsp;·&nbsp; catching AI voice-clone scams in WhatsApp voice notes
