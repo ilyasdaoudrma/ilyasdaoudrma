@@ -163,6 +163,8 @@ TIMELINE = [
      "Deep learning to help detect breast anomalies on mammograms.", False),
     ("WORK", "JUL 2024", "Web Development Intern", "REGIONAL HEALTH DIRECTORATE · OUJDA",
      "A responsive, accessible institutional website.", False),
+    ("STUDY", "2026 — 2028", "Engineering Degree, Computer Engineering – AI", "EHEI OUJDA · 4TH YEAR, IN PROGRESS",
+     "", True),
     ("STUDY", "2025 — 2026", "B.Sc. Data Analytics &amp; Business Intelligence", "EST OUJDA",
      "", False),
     ("STUDY", "2023 — 2025", "DUT, Business Intelligence &amp; Machine Learning", "EST OUJDA",
