@@ -144,8 +144,8 @@ Every match probability breaks down into named, quantified factors: an **Elo + P
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg" />
-  <img src="assets/timeline-light.svg" width="100%" alt="Experience: Founder of WEBZI1 Studio (2025–now); AI Intern at LEADZ Tech Services, Rabat (Apr–Jun 2026); Machine Learning Intern at CHU Mohammed VI, Oujda (Apr–May 2025); Web Development Intern at the Regional Health Directorate, Oujda (Jul 2024). Education: Engineering degree in Computer Engineering – Artificial Intelligence, EHEI Oujda, 4th year, in progress (2026–2028); B.Sc. Data Analytics & Business Intelligence, EST Oujda (2025–2026); DUT Business Intelligence & Machine Learning, EST Oujda (2023–2025)." />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg?v=20261108" />
+  <img src="assets/timeline-light.svg?v=20261108" width="100%" alt="Experience: Founder of WEBZI1 Studio (2025–now); AI Intern at LEADZ Tech Services, Rabat (Apr–Jun 2026); Machine Learning Intern at CHU Mohammed VI, Oujda (Apr–May 2025); Web Development Intern at the Regional Health Directorate, Oujda (Jul 2024). Education: Engineering degree in Computer Engineering – Artificial Intelligence, EHEI Oujda, 4th year, in progress (2026–2028); B.Sc. Data Analytics & Business Intelligence, EST Oujda (2025–2026); DUT Business Intelligence & Machine Learning, EST Oujda (2023–2025)." />
 </picture>
 
 <br />
