@@ -21,7 +21,7 @@
   <img src="assets/s01-light.svg" width="100%" alt="01 — About" />
 </picture>
 
-I'm an **AI Engineer** focused on **LLM fine-tuning, RAG and AI agents**, building full-stack products from data and models to user interfaces: **OMNIA**, **AtlasKick AI**, a **Darija LLM** and **Real or Clone?**. I hold a Bachelor in Data Analytics & BI from EST Oujda.
+I'm an **AI Engineer** focused on **LLM fine-tuning, RAG and AI agents**, building full-stack products from data and models to user interfaces: **Gold Agent**, **OMNIA**, **AtlasKick AI**, a **Darija LLM** and **Real or Clone?**. I hold a Bachelor in Data Analytics & BI from EST Oujda.
 
 - **AI.** At LEADZ Tech Services I fine-tuned a conversational LLM for **Moroccan Darija**, then built a **RAG pipeline with OCR** for intelligent document processing.
 - **Machine learning.** At CHU Mohammed VI I built a **deep-learning model to help detect breast anomalies on mammograms**, from image preprocessing to evaluation.
@@ -36,6 +36,17 @@ I work in Arabic (native), French and English, and I ship interfaces in all thre
   <source media="(prefers-color-scheme: dark)" srcset="assets/s02-dark.svg" />
   <img src="assets/s02-light.svg" width="100%" alt="02 — Selected work" />
 </picture>
+
+<a href="https://github.com/ilyasdaoudrma/gold-agent-control-room"><img src="assets/shots/gold-agent.jpg" width="100%" alt="Gold Agent — Control Room: the Workflow Map, a team of AI agents on an isometric stage" /></a>
+
+### Gold Agent — Control Room &nbsp;·&nbsp; a team of 12 AI agents that trades gold, and knows when not to
+
+A multi-agent platform for gold (XAUUSD): a data guard, a regime reader, four analysts (trend, breakout, liquidity and an **LLM macro analyst that reads the economic calendar and live news**), an arbiter, a **12-rule deterministic risk engine that no model can override**, an executor, a position manager and an auditor, all visible live in a **16-screen Electron control room**. The news agents debate under a rule that lets them only make the system more cautious. I ran the whole team unattended on **AWS** against a **fake-money MetaTrader 5 demo account**, with self-healing operations and Telegram reports, and judged every strategy with walk-forward tests, Bonferroni-corrected significance, stress tests and forward shadow tracking. The honest result so far: **no strategy has shown a winning edge yet**, and the 83-page report shows every number, losses and retracted results included. Built solo in about four months, directing AI coding agents.
+
+`Python` `FastAPI` `React` `Electron` `MetaTrader 5` `MQL5` `AWS` `LLM agents`
+&nbsp;→&nbsp; **[Project page](https://github.com/ilyasdaoudrma/gold-agent-control-room)** &nbsp;·&nbsp; **[2-min film](https://github.com/ilyasdaoudrma/gold-agent-control-room/releases/download/showcase-video/gold-agent-control-room.mp4)** &nbsp;·&nbsp; **[83-page report](https://github.com/ilyasdaoudrma/gold-agent-control-room/blob/main/report/Gold-Agent-Technical-Report.pdf)**
+
+<br />
 
 <a href="https://interview-copilot-coach.vercel.app"><img src="assets/shots/callback.jpg" width="100%" alt="Callback — live site" /></a>
 
@@ -114,7 +125,6 @@ Every match probability breaks down into named, quantified factors: an **Elo + P
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Gold Agent System** *(private)* | A simulation-only, multi-agent research platform for XAUUSD. Data, features, strategies, an LLM macro arbiter, sizing, risk, and backtest / walk-forward / stress testing. The honest result so far: technical-only strategies showed **no durable edge** on M15, H1 or H4, so it stays simulated while I add fundamental data. | Python · LLMs |
 | **Instagram Engagement Analytics** | An ETL pipeline into a data warehouse, Random Forest classification and KMeans segmentation, feeding KPI dashboards. | Python · scikit-learn · Power BI |
 | **Mammography anomaly detection** | Hospital internship project: deep-learning assistance for breast-anomaly detection, covering preprocessing and model evaluation. | Python · deep learning |
 | **[Sunglasses S2L](https://sunglasses-s2l.vercel.app)** | An eyewear storefront concept with 3D product visuals. | Vite · Three.js |
